@@ -1,0 +1,41 @@
+/* public/style.css */
+body {
+     font-family: Arial;
+     max-width: 500px;
+     margin: auto;
+     padding: 2rem;
+     background-color: yellow;
+   }
+   
+   form {
+     display: flex;
+     gap: 0.5rem;
+   }
+   
+   ul {
+     list-style: none;
+     padding: 0;
+   }
+   
+   li {
+     background: #eee;
+     margin-top: 0.5rem;
+     padding: 0.5rem;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     cursor: pointer;
+   }
+   
+   li.completed {
+     text-decoration: line-through;
+     opacity: 0.6;
+   }
+   
+   button {
+     background: none;
+     border: none;
+     cursor: pointer;
+     color: red;
+   }
+   
